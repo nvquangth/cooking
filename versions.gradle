@@ -16,9 +16,6 @@ versions.glide = "4.8.0"
 //lifecycle
 versions.lifecycle = "2.0.0"
 
-//dagger
-versions.dagger = "2.15"
-
 //retrofit
 versions.retrofit = "2.3.0"
 versions.retrofitLogger = "3.4.1"
@@ -35,6 +32,9 @@ versions.room = "2.0.0"
 //test
 versions.espresso = "3.1.0"
 versions.test_runner = "1.1.0"
+
+//koin
+versions.koin = "1.0.2"
 
 
 ext.versions = versions
@@ -81,13 +81,6 @@ def lifecycle = [:]
 lifecycle.extensions = "androidx.lifecycle:lifecycle-extensions:$versions.lifecycle"
 lifecycle.reactivestreams = "androidx.lifecycle:lifecycle-reactivestreams:$versions.lifecycle"
 
-def dagger = [:]
-dagger.dagger = "com.google.dagger:dagger:$versions.dagger"
-dagger.dagger_android = "com.google.dagger:dagger-android:$versions.dagger"
-dagger.dagger_android_support = "com.google.dagger:dagger-android-support:$versions.dagger"
-dagger.dagger_android_processor = "com.google.dagger:dagger-android-processor:$versions.dagger"
-dagger.dagger_compiler = "com.google.dagger:dagger-compiler:$versions.dagger"
-
 def room = [:]
 room.runtime = "androidx.room:room-runtime:$versions.room"
 room.compile = "androidx.room:room-compiler:$versions.room"
@@ -97,6 +90,10 @@ def test = [:]
 test.runner = "androidx.test:runner:$versions.test_runner"
 test.espersso = "androidx.test.espresso:espresso-core:$versions.espresso"
 
+def koin = [:]
+koin.koin_androidx_scope = "org.koin:koin-androidx-scope:$versions.koin"
+koin.koin_androidx_viewmodel = "org.koin:koin-androidx-viewmodel:$versions.koin"
+
 def dep = [:]
 dep.gradle = "com.android.tools.build:gradle:$build_versions.gradle_version"
 dep.junit = "junit:junit:$versions.junit"
@@ -105,9 +102,9 @@ dep.kotlin = kotlin
 dep.rx = rx
 dep.retrofit = retrofit
 dep.lifecycle = lifecycle
-dep.dagger = dagger
 dep.room = room
 dep.test = test
+dep.koin = koin
 
 static def addRepos(RepositoryHandler handler) {
     handler.jcenter()

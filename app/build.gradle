@@ -61,13 +61,6 @@ dependencies {
     implementation dep.lifecycle.extensions
     annotationProcessor dep.lifecycle.reactivestreams
 
-    // Dagger
-    implementation dep.dagger.dagger
-    implementation dep.dagger.dagger_android
-    implementation dep.dagger.dagger_android_support
-    annotationProcessor dep.dagger.dagger_android_processor
-    annotationProcessor dep.dagger.dagger_compiler
-
     // Room
     implementation dep.room.runtime
     implementation dep.room.room_rx
@@ -77,4 +70,8 @@ dependencies {
     androidTestImplementation dep.test.runner
     androidTestImplementation dep.test.espersso
     testImplementation dep.junit
+
+    // Koin
+    implementation dep.koin.koin_androidx_scope
+    implementation dep.koin.koin_androidx_viewmodel
 }
