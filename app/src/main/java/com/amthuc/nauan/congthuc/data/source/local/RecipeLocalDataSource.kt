@@ -27,7 +27,7 @@ class RecipeLocalDataSource(private val context: Context) : RecipeDataSource.Loc
     }
 
     override fun searchRecipes(q: String): Observable<List<Recipe>> {
-        return Observable.create {emitter ->
+        return Observable.create { emitter ->
             emitter.onComplete()
         }
     }

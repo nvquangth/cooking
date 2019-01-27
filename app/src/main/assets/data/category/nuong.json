@@ -1,0 +1,846 @@
+[
+  {
+    "name": "Lòng heo nướng chua ngọt",
+    "time": 20,
+    "img": "https://media.cooky.vn/recipe/g3/29522/s555x240/cooky-recipe-636585680901866090.jpg",
+    "level": "Dễ",
+    "title": "Cách làm lòng heo nướng chua ngọt",
+    "des": "<p style=\"text-align: justify;\">M&oacute;n n&agrave;y quen thuộc với ch&uacute;ng ta nhưng ăn ở ngo&agrave;i th&igrave; mất vệ sinh, h&atilde;y c&ugrave;ng thực hiện n&oacute; ở nh&agrave; v&agrave; thưởng thức c&ugrave;ng Hằng nh&eacute;, Dễ l&agrave;m th&ocirc;i c&aacute;c bạn ah, m&agrave; ăn th&igrave; bao đ&atilde;</p>\r\n",
+    "serving": 3,
+    "components": [
+      {
+        "name": "Lòng heo",
+        "quantity": "500",
+        "unit": "Gr"
+      },
+      {
+        "name": "Dưa leo",
+        "quantity": "2",
+        "unit": "Quả"
+      },
+      {
+        "name": "Chanh",
+        "quantity": "1",
+        "unit": "Trái"
+      },
+      {
+        "name": "Nước mắm",
+        "quantity": "100",
+        "unit": "ml"
+      },
+      {
+        "name": "Muối",
+        "quantity": "1",
+        "unit": "Chén"
+      },
+      {
+        "name": "Hành tím",
+        "quantity": "3",
+        "unit": "Củ"
+      },
+      {
+        "name": "Bột ngũ vị hương",
+        "quantity": "1 <sup>1</sup>/<sub>2</sub>",
+        "unit": "Muỗng cà phê"
+      },
+      {
+        "name": "Đường",
+        "quantity": "1 <sup>1</sup>/<sub>2</sub>",
+        "unit": "Muỗng cà phê"
+      },
+      {
+        "name": "Hạt nêm",
+        "quantity": "1",
+        "unit": "Muỗng cà phê"
+      },
+      {
+        "name": "Dầu điều",
+        "quantity": "2",
+        "unit": "Muỗng cà phê"
+      }
+    ],
+    "type": "",
+    "cook_steps": [
+      {
+        "step": 1,
+        "des": "Lòng heo khi mua về các bạn rửa thật sạch với muối và nước. Sau đó cho vào chảo nóng cùng 1 muỗng canh nước mắm, đảo nhanh tay,  đem ra sửa lại với nước, làm vậy lòng heo sẽ sạch hơn cũng như giảm được mùi hôi của lòng, để ráo nước. Hành tím băm nhỏ.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29522/s480x480/cooky-recipe-636585693736632633.jpg"
+        ]
+      },
+      {
+        "step": 2,
+        "des": "Ướp lòng: cho lòng vào 1 cái tô lớn, cho tất cả nguyên liệu hành tím, hạt nêm, đường, dầu điều, bột ngũ vị hương, lượng nước mắm còn lại, dùng tay trộn đều hỗn hợp ướp lòng cho lòng được thấm hơn. Để 30 phút cho lòng thấm gia vị.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29522/s300x300/cooky-recipe-636585693999961095.png",
+          "https://media.cooky.vn/recipe/g3/29522/s300x300/cooky-recipe-636585694008853111.png",
+          "https://media.cooky.vn/recipe/g3/29522/s300x300/cooky-recipe-636585694026481142.png",
+          "https://media.cooky.vn/recipe/g3/29522/s300x300/cooky-recipe-636585694029757148.png"
+        ]
+      },
+      {
+        "step": 3,
+        "des": "Chuẩn bị 1 cái bếp than hồng, cho lòng lên nướng chín đều 2 mặt, các bạn canh trở đều 2 mặt nhé cho lòng khỏi bị cháy.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29522/s300x300/cooky-recipe-636585694131937327.png",
+          "https://media.cooky.vn/recipe/g3/29522/s300x300/cooky-recipe-636585694131001326.png"
+        ]
+      },
+      {
+        "step": 4,
+        "des": "Vậy là món ăn đã hoàn thành rồi. Mình sẽ ăn kèm với dưa leo, muối tiêu chanh nhé các bạn. Chúc các bạn thành công.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29522/s480x480/recipe29522-prepare-step4-636585724752451109.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cá hú nướng nghệ ngon không cưỡng nổi",
+    "time": 45,
+    "img": "https://media.cooky.vn/recipe/g3/29342/s555x240/cooky-recipe-636584776359393345.jpg",
+    "level": "Dễ",
+    "title": "Cách làm cá hú nướng nghệ ngon không cưỡng nổi",
+    "des": "<p>Thay v&igrave; kho ta đổi mới c&aacute;ch l&agrave;m ch&uacute;t x&iacute;u với m&oacute;n c&aacute; nướng nh&eacute;, Bạn c&oacute; thể &aacute;p dụng c&ocirc;ng thức nướng cho tất cả c&aacute;c loại c&aacute;. C&aacute;c bạn h&atilde;y thực hiện n&oacute; ở nh&agrave; v&agrave; thưởng thức ngay c&aacute;c bạn nh&eacute;</p>\r\n",
+    "serving": 4,
+    "components": [
+      {
+        "name": "Cá hú",
+        "quantity": "500",
+        "unit": "Gr"
+      },
+      {
+        "name": "Củ nghệ",
+        "quantity": "2",
+        "unit": "Củ"
+      },
+      {
+        "name": "Sả",
+        "quantity": "3",
+        "unit": "Củ"
+      },
+      {
+        "name": "Gừng",
+        "quantity": "1",
+        "unit": "Củ"
+      },
+      {
+        "name": "Ớt bột",
+        "quantity": "1",
+        "unit": "Muỗng cà phê"
+      },
+      {
+        "name": "Bột ngọt",
+        "quantity": "1",
+        "unit": "Muỗng cà phê"
+      },
+      {
+        "name": "Hạt nêm",
+        "quantity": "1",
+        "unit": "Muỗng cà phê"
+      },
+      {
+        "name": "Dầu ăn",
+        "quantity": "2",
+        "unit": "Muỗng cà phê"
+      },
+      {
+        "name": "Muối",
+        "quantity": " <sup>1</sup>/<sub>2</sub>",
+        "unit": "Muỗng cà phê"
+      },
+      {
+        "name": "Nước mắm",
+        "quantity": "1",
+        "unit": "Muỗng cà phê"
+      }
+    ],
+    "type": "",
+    "cook_steps": [
+      {
+        "step": 1,
+        "des": "Cá mua về các bạn làm rửa sạch và cắt khúc theo chiều ngang của thân cá (cá hằng dùng là đã cắt sẵn ngoài chợ và hằng chỉ sử dụng phần thân). Sả cắt bớt cuống đi rửa sạch, cắt khúc nhỏ. Gừng gọt vỏ, rửa sạch cắt lát. Nghệ gọt vỏ, rửa sạch cắt lát.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29342/s300x300/cooky-recipe-636584828751305366.png",
+          "https://media.cooky.vn/recipe/g3/29342/s300x300/cooky-recipe-636584828765033391.png",
+          "https://media.cooky.vn/recipe/g3/29342/s300x300/cooky-recipe-636584828785001426.png",
+          "https://media.cooky.vn/recipe/g3/29342/s300x300/cooky-recipe-636584828784377425.png",
+          "https://media.cooky.vn/recipe/g3/29342/s300x300/cooky-recipe-636584828778293414.png"
+        ]
+      },
+      {
+        "step": 2,
+        "des": "Cho tất cả gừng, nghệ, sả vào 1 cái cối tiến hành gã thật nhuyễn để khi nướng không bị cháy. Sau đó cho ra 1 cái tô lớn và cho những gia vị ở trên vào, sau đó dùng tay trộn đều hỗn hợp ướp lên, rồi cho cá vào dùng tay xoa đều hỗn hợp lên cá để cá thấm đều hơn, để 1 thời gian cho cá thấm ui mình sẽ đem đi nướng.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29342/s300x300/cooky-recipe-636584828950205716.png",
+          "https://media.cooky.vn/recipe/g3/29342/s300x300/cooky-recipe-636584828986085779.png",
+          "https://media.cooky.vn/recipe/g3/29342/s300x300/cooky-recipe-636584828976257762.png",
+          "https://media.cooky.vn/recipe/g3/29342/s300x300/cooky-recipe-636584828980937770.png",
+          "https://media.cooky.vn/recipe/g3/29342/s300x300/cooky-recipe-636584828988893784.png"
+        ]
+      },
+      {
+        "step": 3,
+        "des": "Các bạn chuẩn bị salad hoặc rau để ăn kèm với cá nhé. Mình muốn ăn kèm salad nên trong video của mình có salad. Nếu các bạn thích làm theo có thể bấm vào video để xem cách làm salad nhé. Mình chỉ muốn hướng dẫn làm cá nướng thôi nhé!",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29342/s300x300/cooky-recipe-636584829062057912.png",
+          "https://media.cooky.vn/recipe/g3/29342/s300x300/cooky-recipe-636584829092789966.png",
+          "https://media.cooky.vn/recipe/g3/29342/s300x300/cooky-recipe-636584829194190144.png",
+          "https://media.cooky.vn/recipe/g3/29342/s300x300/cooky-recipe-636584829179682119.png"
+        ]
+      },
+      {
+        "step": 4,
+        "des": "Chuẩn bị 1 bếp than hồng cho cá lên nướng, các bạn tránh đảo cá nhiều lần cá sẽ bị bể ra không còn nguyên vẹn, Mình nên để cá chính 1 mặt, rồi mới đảo mặt kia . vậy là đã hoàn thành rồi đó, chúc các bạn thành công nhé!",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29342/s300x300/cooky-recipe-636584829221958193.png",
+          "https://media.cooky.vn/recipe/g3/29342/s300x300/cooky-recipe-636584829226794202.png",
+          "https://media.cooky.vn/recipe/g3/29342/s300x300/cooky-recipe-636584829264858268.png"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bánh mì ngọt",
+    "time": 120,
+    "img": "https://media.cooky.vn/recipe/g3/29430/s555x240/recipe-cover-r29430.jpg",
+    "level": "Dễ",
+    "title": "Cách làm bánh mì ngọt",
+    "des": "<p style=\"text-align: justify;\">B&aacute;nh m&igrave; ngọt thơm ngon, ruột b&aacute;nh mềm xốp vỏ gi&ograve;n gi&ograve;n quyện với phần siro mật ong&nbsp;l&agrave; c&oacute; ngay bữa s&aacute;ng v&ocirc; c&ugrave;ng tuyệt vời rồi. B&aacute;nh m&igrave; ngọt kh&ocirc;ng hề kh&oacute; l&agrave;m một ch&uacute;t n&agrave;o đ&acirc;u nha, c&ugrave;ng bắt tay thực hiện nh&eacute;.</p>\r\n",
+    "serving": 4,
+    "components": [
+      {
+        "name": "Bột mì",
+        "quantity": "265",
+        "unit": "Gr"
+      },
+      {
+        "name": "Men nở",
+        "quantity": "2",
+        "unit": "Muỗng cà phê"
+      },
+      {
+        "name": "Bột nở (baking powder)",
+        "quantity": "2",
+        "unit": "Muỗng cà phê"
+      },
+      {
+        "name": "Muối",
+        "quantity": " <sup>1</sup>/<sub>2</sub>",
+        "unit": "Muỗng cà phê"
+      },
+      {
+        "name": "Sữa tươi",
+        "quantity": "177",
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu olive ",
+        "quantity": "2",
+        "unit": "Muỗng canh"
+      },
+      {
+        "name": "Mật ong",
+        "quantity": "4",
+        "unit": "Muỗng canh"
+      },
+      {
+        "name": "Kem phô mai ",
+        "quantity": "115",
+        "unit": "Gr"
+      },
+      {
+        "name": "Lòng đỏ trứng gà",
+        "quantity": "2",
+        "unit": "Cái"
+      },
+      {
+        "name": "Đường trắng",
+        "quantity": "170",
+        "unit": "Gr"
+      },
+      {
+        "name": "Nước",
+        "quantity": "118",
+        "unit": "ml"
+      },
+      {
+        "name": "Mè trắng",
+        "quantity": "5",
+        "unit": "Gr"
+      },
+      {
+        "name": "Mè đen",
+        "quantity": "5",
+        "unit": "Gr"
+      }
+    ],
+    "type": "",
+    "cook_steps": [
+      {
+        "step": 1,
+        "des": "Trong 1 tô to trộn sữa, dầu thực vật, 2 muỗng canh mật ong, men nở với nhau được phần hỗn hợp ướt. Phần bột mì, bột nở, muối trộn đều sau đó rây bột vào phần hỗn hợp ướt vừa trộn. Trộn đều hỗn hợp bột cho tới khi thành một khối đồng nhất. Dùng màng bọc thực phẩm hoặc 1 chiếc khăn ẩm đậy chậu bột lại đặt ở nơi ấm áp, ủ trong vòng 1 giờ hoặc tới khi bột nở gấp đôi.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29430/s300x300/recipe29430-prepare-step1-636583760311512751.jpg",
+          "https://media.cooky.vn/recipe/g3/29430/s300x300/recipe29430-prepare-step1-636583760363928843.jpg"
+        ]
+      },
+      {
+        "step": 2,
+        "des": "Sau thời gian ủ bột, lấy ra nhào thật kỹ có thể rắc thêm chút bột áo nếu bột nhão. Chia bột thành 20 viên. Kem phô mai cắt thành 20 viên đều nhau. Nặn bột thành miếng tròn dẹt, đặt viên kem phô mai vào giữa, vo tròn lại.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29430/s300x300/recipe29430-prepare-step2-636583760546449164.jpg",
+          "https://media.cooky.vn/recipe/g3/29430/s300x300/recipe29430-prepare-step2-636583760572657210.jpg"
+        ]
+      },
+      {
+        "step": 3,
+        "des": "Xếp bột vào 1 chiếc chảo lớn hoặc có thể cho vào khay nướng. Đặt 1 miếng khăn sạch lên trên mặt ủ tiếp 40 phút. Lòng đỏ trứng đánh tan. Sau thời gian ủ, dùng chổi phết 1 lớp lòng đỏ trứng lên mặt bánh. Bật lò nướng ở 176 độ C. Đem nướng bánh trong khoảng 25 phút.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29430/s300x300/recipe29430-prepare-step3-636583760732245490.jpg",
+          "https://media.cooky.vn/recipe/g3/29430/s300x300/recipe29430-prepare-step3-636583760791057593.jpg"
+        ]
+      },
+      {
+        "step": 4,
+        "des": "Trong lúc nướng bánh thì nấu siro mật ong, cho 170gr đường, 2 muỗng canh mật ong, 118ml nước vào nồi, khuấy đều cho tan, đặt lên bếp đun sôi thì giảm lửa xuống đun tiếp 3-4 phút nữa là được. Bánh chín lấy ra khỏi lò, rưới phần siro mật ong lên khắp mặt bánh.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29430/s300x300/recipe29430-prepare-step4-636583761433778722.jpg",
+          "https://media.cooky.vn/recipe/g3/29430/s300x300/recipe29430-prepare-step4-636583761453434757.jpg"
+        ]
+      },
+      {
+        "step": 5,
+        "des": "Giờ chỉ cần bạn rắc thêm chút mè rang là món bánh mì ngọt đã hoàn thiện rồi đấy. Ruột bánh mềm ẩm, béo vị cream cheese quyện với lớp vỏ bên ngoài ngọt đậm vị mật ong thơm thơm bùi bùi vị mè rang thật là ngon biết bao.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29430/s300x300/recipe29430-prepare-step5-636583761533462897.jpg",
+          "https://media.cooky.vn/recipe/g3/29430/s300x300/recipe29430-prepare-step5-636583761819255399.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bánh khoai môn cuộn",
+    "time": 20,
+    "img": "https://media.cooky.vn/recipe/g3/29297/s555x240/recipe-cover-r29297.jpg",
+    "level": "Dễ",
+    "title": "Cách làm bánh khoai môn cuộn",
+    "des": "<p style=\"text-align: justify;\">M&oacute;n n&agrave;y rất l&agrave; đơn giản, dễ l&agrave;m v&agrave; th&iacute;ch hợp cho bữa ăn s&aacute;ng của những người bận rộn n&egrave;. B&aacute;nh đạt th&agrave;nh phẩm khi cuốn b&aacute;nh c&ograve;n nguy&ecirc;n kh&ocirc;ng bị n&aacute;t hay bung ra, m&agrave;u b&aacute;nh v&agrave;ng ươm hấp dẫn,&nbsp;ăn rất ngon miệng.</p>\r\n",
+    "serving": 2,
+    "components": [
+      {
+        "name": "Khoai môn",
+        "quantity": "300",
+        "unit": "Gr"
+      },
+      {
+        "name": "Bánh mì sandwich",
+        "quantity": "6",
+        "unit": "Lát"
+      },
+      {
+        "name": "Đường trắng",
+        "quantity": "30",
+        "unit": "Gr"
+      },
+      {
+        "name": "Trứng gà",
+        "quantity": "2",
+        "unit": "Quả"
+      },
+      {
+        "name": "Dầu ăn",
+        "quantity": "50",
+        "unit": "ml"
+      },
+      {
+        "name": "Dừa nạo",
+        "quantity": "1",
+        "unit": "Muỗng canh"
+      }
+    ],
+    "type": "",
+    "cook_steps": [
+      {
+        "step": 1,
+        "des": "Khoai môn gọt vỏ, rửa sạch, thái miếng nhỏ rồi hấp chín sau đó nghiền nát khoai bằng muỗng hay bằng tay đều được, thêm đường vào trộn chung. Dùng tay nhào trộn bột khoai cho thật mịn. Trứng đập vào bát đánh tan.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29297/s300x300/recipe29297-prepare-step1-636580054709828968.jpg",
+          "https://media.cooky.vn/recipe/g3/29297/s300x300/recipe29297-prepare-step1-636580054732917009.jpg",
+          "https://media.cooky.vn/recipe/g3/29297/s300x300/recipe29297-prepare-step1-636580054757253051.jpg",
+          "https://media.cooky.vn/recipe/g3/29297/s300x300/recipe29297-prepare-step1-636580054775037083.jpg"
+        ]
+      },
+      {
+        "step": 2,
+        "des": "Bánh mì cắt bỏ rìa ngoài sau đó dùng thanh cán hoặc vật nặng bất kì cán mỏng lát bánh. Dùng muỗng múc từng muỗng bột đã nhào phết đều lên trên lát bánh. Cuộn lát bánh lại thành hình chiếc bánh. Bạn cho bánh vào khay nướng có lót giấy nến, dùng cọ quét trứng đã đánh tan lên trên bề mặt bánh, tiếp đó rắc vụn dừa nạo vào. Nướng bánh ở 180 độ C trong khoảng 15-20 phút hoặc cho đến khi bánh chín vàng là được.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29297/s300x300/recipe29297-prepare-step2-636580057505197878.jpg",
+          "https://media.cooky.vn/recipe/g3/29297/s300x300/recipe29297-prepare-step2-636580057527661917.jpg",
+          "https://media.cooky.vn/recipe/g3/29297/s300x300/recipe29297-prepare-step2-636580057550125957.jpg",
+          "https://media.cooky.vn/recipe/g3/29297/s300x300/recipe29297-prepare-step2-636580057572901997.jpg"
+        ]
+      },
+      {
+        "step": 3,
+        "des": "Bánh khoai môn cuộn là món bánh với vị ngọt nhẹ và thơm ngon. Bánh có lớp vỏ ngoài giòn giòn pha chút thơm ngậy của vụn dừa kết hợp với lớp khoai mềm mượt bên trong ăn rất ngon miệng. Món bánh thích hợp để ăn sáng hay dùng cho các bữa ăn nhẹ.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29297/s480x480/recipe29297-prepare-step3-636580057809710413.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chân gà nướng muối cay",
+    "time": 30,
+    "img": "https://media.cooky.vn/recipe/g3/29293/s555x240/recipe-cover-r29293.JPG",
+    "level": "Dễ",
+    "title": "Cách làm chân gà nướng muối cay",
+    "des": "<p style=\"text-align: justify;\">Ch&acirc;n g&agrave; nướng muối ớt cay thơm với những chiếc ch&acirc;n g&agrave; tẩm ướp đầy đủ gia vị gừng, muối, ớt bột, hạt n&ecirc;m... được nướng trong l&ograve;&nbsp;ngon đậm đ&agrave;. Tuy đ&acirc;y chỉ l&agrave; m&oacute;n ăn b&igrave;nh d&acirc;n nhưng ai cũng phải ứa nước miếng khi nh&igrave;n thấy.</p>\r\n",
+    "serving": 4,
+    "components": [
+      {
+        "name": "Chân gà",
+        "quantity": "10",
+        "unit": "Cái"
+      },
+      {
+        "name": "Gừng",
+        "quantity": " <sup>1</sup>/<sub>4</sub>",
+        "unit": "Củ"
+      },
+      {
+        "name": "Ớt sừng",
+        "quantity": "1",
+        "unit": "Trái"
+      },
+      {
+        "name": "Ớt bột",
+        "quantity": "1",
+        "unit": "Muỗng cà phê"
+      },
+      {
+        "name": "Tỏi",
+        "quantity": "1",
+        "unit": "Củ"
+      },
+      {
+        "name": "Đường trắng",
+        "quantity": "1",
+        "unit": "Muỗng cà phê"
+      },
+      {
+        "name": "Rượu trắng",
+        "quantity": "1",
+        "unit": "Muỗng cà phê"
+      },
+      {
+        "name": "Nước tương",
+        "quantity": "1",
+        "unit": "Muỗng cà phê"
+      },
+      {
+        "name": "Hạt nêm",
+        "quantity": "1",
+        "unit": "Muỗng cà phê"
+      },
+      {
+        "name": "Dầu ăn",
+        "quantity": "1",
+        "unit": "Muỗng cà phê"
+      },
+      {
+        "name": "Muối",
+        "quantity": "2",
+        "unit": "Muỗng cà phê"
+      }
+    ],
+    "type": "",
+    "cook_steps": [
+      {
+        "step": 1,
+        "des": "Chân gà bạn đem rửa thật sạch sau đó chặt bỏ hết phần móng chân gà, rửa lại và để ráo. Gừng, tỏi, ớt sừng rửa sạch, tỏi bóc sạch vỏ băm nhỏ, gừng rửa sạch đập giập, băm nhỏ, ớt băm nhỏ.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29293/s300x300/recipe29293-prepare-step1-636579989943507212.jpg",
+          "https://media.cooky.vn/recipe/g3/29293/s300x300/recipe29293-prepare-step1-636579994441307112.jpg"
+        ]
+      },
+      {
+        "step": 2,
+        "des": "Tiếp theo bạn cho chân gà vào tô nước sạch, thêm 1 muỗng cà phê muối và gừng đập dập sau đó ngâm chân gà 20 phút thì vớt ra rửa lại thêm một lần nữa rồi để ráo nước. Công đoạn này giúp chân gà thơm ngon. ",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29293/s480x480/recipe29293-prepare-step2-636579994499963215.jpg"
+        ]
+      },
+      {
+        "step": 3,
+        "des": "Cho 1 muỗng cà phê muối, ớt băm, bột ớt, tỏi băm, đường, rượu trắng, nước tương, hạt nêm, dầu ăn vào bát và trộn đều cho hòa tan thành hỗn hợp gia vị ướp chân gà. Cho chân gà vào tô rồi đổ bát gia vị vào cùng, trộn đều rồi ướp chân gà 30 phút hoặc 2-3 tiếng sẽ ngon hơn.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29293/s300x300/recipe29293-prepare-step3-636579999552812090.jpg",
+          "https://media.cooky.vn/recipe/g3/29293/s300x300/recipe29293-prepare-step3-636579999584168145.jpg"
+        ]
+      },
+      {
+        "step": 4,
+        "des": "Chân gà sau khi đã ướp xong thì bật lò nướng 200 độ C làm nóng trước 7-10 phút, sau đó bạn lót giấy nến hoặc giấy bạc vào khay nướng và xếp chân gà lên, đem nướng 10 phút thì lấy ra dùng cọ phết hỗn hợp gia vị lên chân gà rồi cho vào nướng tiếp. Cứ như vậy bạn nướng khoảng 25-30 phút hoặc tới khi chân gà chín chuyển màu vàng hấp dẫn là có thể lấy ra thưởng thức.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29293/s480x480/recipe29293-prepare-step4-636579999617552204.jpg"
+        ]
+      },
+      {
+        "step": 5,
+        "des": "Chân gà nướng muối ớt vừa giòn, mặn, cay, ăn thử một miếng vị ngon đậm đà. Tuy đây chỉ là món ăn bình dân nhưng ai cũng phải ứa nước miếng khi nhìn thấy. Cuối tuần cùng nhóm bạn dàn trận với món này thì quá tuyệt luôn.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29293/s480x480/recipe29293-prepare-step5-636580000644034007.JPG"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bắp bò gói giấy bạc nướng",
+    "time": 80,
+    "img": "https://media.cooky.vn/recipe/g3/29243/s555x240/recipe-cover-r29243.jpg",
+    "level": "Dễ",
+    "title": "Cách làm bắp bò gói giấy bạc nướng",
+    "des": "<p style=\"text-align: justify;\">M&oacute;n bắp b&ograve; g&oacute;i giấy bạc nướng n&agrave;y m&igrave;nh được em g&aacute;i hướng dẫn c&aacute;ch l&agrave;m, nhìn kh&acirc;u sơ chế d&agrave;i d&ograve;ng nhưng l&agrave;m rất nhanh chỉ 10-15 ph&uacute;t l&agrave; xong phần sơ chế. Sau đ&oacute; cho v&agrave;o l&ograve; nướng rồi l&agrave;m việc kh&aacute;c, 60 ph&uacute;t sau lại đặt lại l&ograve; lần nữa, đến giờ l&agrave; lấy ra ăn th&ocirc;i.</p>\r\n",
+    "serving": 4,
+    "components": [
+      {
+        "name": "Bắp bò",
+        "quantity": "700",
+        "unit": "Gr"
+      },
+      {
+        "name": "Dầu hào",
+        "quantity": "100",
+        "unit": "Gr"
+      },
+      {
+        "name": "Tỏi",
+        "quantity": "40",
+        "unit": "Gr"
+      },
+      {
+        "name": "Hạt nêm",
+        "quantity": "2",
+        "unit": "Muỗng cà phê"
+      },
+      {
+        "name": "Tiêu",
+        "quantity": " <sup>1</sup>/<sub>2</sub>",
+        "unit": "Muỗng cà phê"
+      },
+      {
+        "name": "Đường trắng",
+        "quantity": "2",
+        "unit": "Muỗng cà phê"
+      },
+      {
+        "name": "Dầu ăn",
+        "quantity": "1",
+        "unit": "Muỗng canh"
+      }
+    ],
+    "type": "",
+    "cook_steps": [
+      {
+        "step": 1,
+        "des": "Bắp bò rửa sạch, thấm khô, cắt lát khoảng 1 đến 1,5cm. Tỏi bóc vỏ, đập dập bằm nhỏ nhưng không nát quá. Phi tỏi vàng thơm, vớt tỏi và gạn hết dầu ra. Làm sốt ướp bắp bò: cho 100 gr dầu hào, 2 muỗng cà phê hạt nêm, 2 muỗng cà phê đường, 1/2 muỗng cà phê tiêu xay, để lửa nhỏ khuấy 2-3 phút cho tan đều, tắt bếp và trộn tỏi phi vào.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29243/s300x300/recipe29243-prepare-step1-636578586703102551.jpg",
+          "https://media.cooky.vn/recipe/g3/29243/s300x300/recipe29243-prepare-step1-636578586720886582.jpg",
+          "https://media.cooky.vn/recipe/g3/29243/s300x300/recipe29243-prepare-step1-636578586740386616.jpg",
+          "https://media.cooky.vn/recipe/g3/29243/s300x300/recipe29243-prepare-step1-636578586772054672.jpg"
+        ]
+      },
+      {
+        "step": 2,
+        "des": "Để 5 phút cho sốt nguội bớt rồi trộn đều vào bắp bò (không cần đợi cho bắp bò thấm gia vị đâu, vì thời gian nướng khá lâu, thịt sẽ thấm đều). Trải giấy bạc ra, dầu ăn, chia thịt ra làm hai phần và xếp 2 lớp thịt vì nếu xếp nhiều lớp, thịt sẽ dày, khi nướng lớp thịt bên trên sẽ không thấm đều được gia vị và sẽ bị khô",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29243/s300x300/recipe29243-prepare-step2-636578586822286760.jpg",
+          "https://media.cooky.vn/recipe/g3/29243/s300x300/recipe29243-prepare-step2-636578586921346934.jpg"
+        ]
+      },
+      {
+        "step": 3,
+        "des": "Túm các mép giấy bạc lên rồi bóp và gập mép lại sao cho gói giấy kín không bị thoát hơi ra. Khi nướng nước thịt sẽ chảy ra và thịt được ngâm trong nước sốt. Đặt lò 200 độ C thời gian 60 phút, đợi 5 phút lò nóng thì cho gói thịt vào nướng, hết thời gian 60 phút thì cài lò nướng thêm từ 40-60 phút. Tuỳ theo thích ăn giòn hay mềm. Mình thường làm hai giai đoạn. Sáng mình ướp xong thì cho vào lò nướng rồi đi làm. Chiều về căn giờ sao cho đúng với bữa cơm lại bật lò nướng tiếp.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29243/s300x300/recipe29243-prepare-step3-636578587078595210.jpg",
+          "https://media.cooky.vn/recipe/g3/29243/s300x300/recipe29243-prepare-step3-636578587232099480.jpg"
+        ]
+      },
+      {
+        "step": 4,
+        "des": "Vậy là bạn đã thực hiện xong cách làm món bắp bò gói giấy bạc nướng thơm ngon rồi, đây là món nướng đơn giản nhưng cảm xúc mà nó mang lại thật khó tả. Hãy dành những giờ phút rảnh rỗi và những ngày cuối tuần cùng thưởng thức món ăn thơm ngon này với gia đình các bạn nhé. Chúc các bạn thành công với món ăn này.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29243/s480x480/recipe29243-prepare-step4-636578588570581831.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Phi lê cá nướng",
+    "time": 0,
+    "img": "https://media.cooky.vn/recipe/g3/29174/s555x240/recipe-cover-r29174.jpg",
+    "level": "Dễ",
+    "title": "Cách làm phi lê cá nướng",
+    "des": "<p style=\"text-align: justify;\">M&oacute;n phi l&ecirc; c&aacute; nướng thơm lừng, hấp dẫn, thịt c&aacute; rất b&ugrave;i, ng&ograve;n ngọt m&agrave; c&aacute;ch chế biến rất đơn giản. C&aacute; nướng rất th&iacute;ch hợp cho những bữa ăn khi đại gia đ&igrave;nh tụ họp đ&ocirc;ng đảo v&agrave;o những dịp cuối tuần hoặc dịp nghỉ lễ. C&aacute;ch l&agrave;m phi l&ecirc; c&aacute; nướng kh&ocirc;ng kh&oacute; nh&eacute; chị em.</p>\r\n",
+    "serving": 6,
+    "components": [
+      {
+        "name": "Phi lê cá",
+        "quantity": "500",
+        "unit": "Gr"
+      },
+      {
+        "name": "Hành lá",
+        "quantity": "20",
+        "unit": "Gr"
+      },
+      {
+        "name": "Gừng",
+        "quantity": "20",
+        "unit": "Gr"
+      },
+      {
+        "name": "Rượu vang",
+        "quantity": "15",
+        "unit": "ml"
+      },
+      {
+        "name": "Rượu trắng",
+        "quantity": "15",
+        "unit": "ml"
+      },
+      {
+        "name": "Sốt ướp thịt cá",
+        "quantity": "1",
+        "unit": "Gói"
+      },
+      {
+        "name": "Hạt tiêu",
+        "quantity": "10",
+        "unit": "Gr"
+      }
+    ],
+    "type": "",
+    "cook_steps": [
+      {
+        "step": 1,
+        "des": "Cá rửa sạch cắt thành miếng vuông to bản. Đầu hành và gừng thái nhỏ. Cho cá vào bát, thêm 1 gói sốt ướp thịt cá nướng, rượu vang, rượu trắng, hành, gừng và hạt tiêu vào trộn đều cho cá ngấm gia vị.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29174/s300x300/recipe29174-prepare-step1-636576691882446316.jpg",
+          "https://media.cooky.vn/recipe/g3/29174/s300x300/recipe29174-prepare-step1-636576691954362443.jpg"
+        ]
+      },
+      {
+        "step": 2,
+        "des": "Ướp cá khoảng 4 tiếng. Trải đều cá ra khay nướng có lót giấy bạc. Cho khay cá vào lò nướng hoặc nồi nướng, nướng cá ở 200 độ C trong khoảng 25 phút hoặc cho đến khi cá chín vàng là được.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29174/s300x300/recipe29174-prepare-step2-636576692040162593.jpg",
+          "https://media.cooky.vn/recipe/g3/29174/s300x300/recipe29174-prepare-step2-636576692097414694.jpg"
+        ]
+      },
+      {
+        "step": 3,
+        "des": "Nướng xong mang cá ra dĩa trình bày. Cuối tuần là thời điểm mà bạn có nhiều thời gian rảnh rỗi nhất cũng vì thế mà bạn có thêm thời gian để cải thiện bữa cơm gia đình với những món ăn ngon. Tuần này bạn thử đổi bữa với món cá nướng giòn thơm này nhé! Từng miếng thịt cá nướng giòn giòn thơm lừng thấm đều gia vị rất đã miệng đấy!",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29174/s480x480/recipe29174-prepare-step3-636576693053072372.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cá thu Nhật nướng",
+    "time": 60,
+    "img": "https://media.cooky.vn/recipe/g3/29095/s555x240/recipe-cover-r29095.jpg",
+    "level": "Dễ",
+    "title": "Cách làm cá thu Nhật nướng",
+    "des": "<p style=\"text-align: justify;\">C&aacute; thu Nhật, hay c&ograve;n gọi l&agrave; c&aacute; thu đao ng&agrave;y c&agrave;ng chiếm vị thế trong tr&aacute;i tim người y&ecirc;u ẩm thực Việt. C&aacute; c&oacute; vị b&eacute;o v&agrave; thịt ngọt rất đặc trưng. Kh&ocirc;ng chỉ l&agrave; m&oacute;n ăn ngon, c&aacute; Thu Nhật c&ograve;n l&agrave; lo&agrave;i c&aacute; chứa nhiều vitamin D, E, A, DHA v&agrave; c&oacute; t&aacute;c dụng chống b&eacute;o ph&igrave;. Với c&aacute;ch thức chế biến kh&aacute; đơn giản v&agrave; kh&ocirc;ng mất nhiều thời gian, m&oacute;n c&aacute; thu Nhật nướng sẽ gi&uacute;p bạn l&agrave;m bữa cơm gia đ&igrave;nh th&ecirc;m phần đậm đ&agrave;, hấp dẫn, lạ miệng hơn với loại thực phẩm quen thuộc n&agrave;y.</p>\r\n",
+    "serving": 4,
+    "components": [
+      {
+        "name": "Cá thu",
+        "quantity": "1",
+        "unit": "Con"
+      },
+      {
+        "name": "Gừng băm",
+        "quantity": "1",
+        "unit": "Muỗng cà phê"
+      },
+      {
+        "name": "Tỏi băm",
+        "quantity": "1",
+        "unit": "Muỗng cà phê"
+      },
+      {
+        "name": "Đường nâu",
+        "quantity": "1",
+        "unit": "Muỗng cà phê"
+      },
+      {
+        "name": "Muối",
+        "quantity": "1",
+        "unit": "Muỗng cà phê"
+      },
+      {
+        "name": "Dầu hào",
+        "quantity": "1",
+        "unit": "Muỗng cà phê"
+      },
+      {
+        "name": "Dầu ăn",
+        "quantity": "1",
+        "unit": "Muỗng canh"
+      },
+      {
+        "name": "Bột nghệ",
+        "quantity": " <sup>1</sup>/<sub>2</sub>",
+        "unit": "Muỗng cà phê"
+      }
+    ],
+    "type": "",
+    "cook_steps": [
+      {
+        "step": 1,
+        "des": "Chuẩn bị sẵn gừng tỏi, bạn có thể băm nhuyễn hoặc cắt lát. Cá mua về rửa sạch, thấm cho khô rồi dùng dao xẻ dọc và ngang, mục đích để cá thấm gia vị, khi ăn thịt cá đậm đà hơn.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29095/s300x300/recipe29095-prepare-step1-636574252142151891.jpg",
+          "https://media.cooky.vn/recipe/g3/29095/s300x300/recipe29095-prepare-step1-636574252170855941.jpg"
+        ]
+      },
+      {
+        "step": 2,
+        "des": "Các gia vị cho vào tô, trộn đều, tẩm vào 2 mặt cá và tẩm trong bụng cá cho thấm trước khi nướng khoảng 1 giờ, sau đó để trong ngăm mát tủ lạnh. Bật lò nướng ở nhiệt độ 200 độ C hoặc dùng lò nướng ga. Lót giấy bạc vào khay nướng. Bạn cũng có thể dùng lò nướng than và vỉ nướng.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29095/s300x300/recipe29095-prepare-step2-636574253068793518.jpg",
+          "https://media.cooky.vn/recipe/g3/29095/s300x300/recipe29095-prepare-step2-636574253475798233.jpg"
+        ]
+      },
+      {
+        "step": 3,
+        "des": "Khi ăn các bạn chỉ cần gỡ bỏ xương sống của cá, chuẩn bị rau xà lách, rau thơm các loại, dưa leo, thơm, bún tươi, bánh tráng...cuốn chung với cá, chấm nước mắm chua ngọt hay mắm nêm đều được. Thịt cá dai, thơm và beo béo rất ngon.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29095/s480x480/recipe29095-prepare-step3-636576547244920274.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ốc lác nướng tiêu xanh",
+    "time": 40,
+    "img": "https://media.cooky.vn/recipe/g3/29074/s555x240/recipe-cover-r29074.JPG",
+    "level": "Dễ",
+    "title": "Cách làm ốc bươu nướng tiêu xanh",
+    "des": "<p>Ốc bươu nướng ti&ecirc;u xanh hay ốc l&aacute;c nướng ti&ecirc;u xanh c&oacute; m&ugrave;i vị thơm ngon hơn nhờ c&oacute; hỗn hợp nước sốt ti&ecirc;u xanh được chan v&agrave;o từng con ốc tr&ecirc;n bếp than đỏ, được nướng cho đến khi nước sốt trong ốc n&oacute;ng s&ocirc;i l&ecirc;n v&agrave; dậy m&ugrave;i thơm nồng của ti&ecirc;u xanh, thịt ốc săn lại v&agrave; thấm đều gia vị l&agrave; c&oacute; thể thưởng thức ngay, n&ecirc;n ăn l&uacute;c c&ograve;n n&oacute;ng sẽ ngon hơn. Đ&acirc;y cũng l&agrave; m&oacute;n gợi &yacute; cho bữa tiệc ăn uống gia đ&igrave;nh v&agrave; bạn b&egrave; kh&aacute; th&uacute; vị.</p>\r\n",
+    "serving": 2,
+    "components": [
+      {
+        "name": "Ốc lác",
+        "quantity": "1",
+        "unit": "Kg"
+      },
+      {
+        "name": "Tỏi",
+        "quantity": "3",
+        "unit": "Củ"
+      },
+      {
+        "name": "Ớt",
+        "quantity": "10",
+        "unit": "Trái"
+      },
+      {
+        "name": "Tiêu xanh",
+        "quantity": "50",
+        "unit": "Gr"
+      },
+      {
+        "name": "Tương ớt",
+        "quantity": "2",
+        "unit": "Muỗng canh"
+      },
+      {
+        "name": "Dầu hào",
+        "quantity": "2",
+        "unit": "Muỗng canh"
+      },
+      {
+        "name": "Ớt bột",
+        "quantity": "2",
+        "unit": "Muỗng canh"
+      },
+      {
+        "name": "Đường trắng",
+        "quantity": "2",
+        "unit": "Muỗng canh"
+      },
+      {
+        "name": "Nước mắm",
+        "quantity": "40",
+        "unit": "ml"
+      },
+      {
+        "name": "Gừng",
+        "quantity": "1",
+        "unit": "Củ"
+      },
+      {
+        "name": "Sả",
+        "quantity": "3",
+        "unit": "Cây"
+      },
+      {
+        "name": "Rau răm",
+        "quantity": "50",
+        "unit": "Gr"
+      }
+    ],
+    "type": "",
+    "cook_steps": [
+      {
+        "step": 1,
+        "des": "Cho sả đập giập, gừng, ớt thái nhỏ, ốc lác vào nồi luộc sơ cho ốc sạch và khử mùi. Sau đó vớt ốc ra để riêng và cắt đuôi ốc để khi nướng trên vỉ, ốc sẽ không bị nổ.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29074/s300x300/recipe29074-prepare-step1-636574006040331636.JPG",
+          "https://media.cooky.vn/recipe/g3/29074/s300x300/recipe29074-prepare-step1-636574006042047639.JPG",
+          "https://media.cooky.vn/recipe/g3/29074/s300x300/recipe29074-prepare-step1-636574006041423638.JPG",
+          "https://media.cooky.vn/recipe/g3/29074/s300x300/recipe29074-prepare-step1-636574006041735638.JPG"
+        ]
+      },
+      {
+        "step": 2,
+        "des": "Trộn hỗn hợp nước sốt nướng gồm có tỏi ớt băm, tiêu xanh giã nát, tiêu xanh nguyên hạt, ớt bột, dầu hào, tương ớt, nước nắm, đường. Cho tất cả nguyên liệu vào tô rồi khuấy đều cho hỗn hợp hòa quyện, đường tan hết và sệt lại.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29074/s300x300/recipe29074-prepare-step2-636574006706920806.JPG",
+          "https://media.cooky.vn/recipe/g3/29074/s300x300/recipe29074-prepare-step2-636574006709728811.JPG",
+          "https://media.cooky.vn/recipe/g3/29074/s300x300/recipe29074-prepare-step2-636574006708012808.JPG",
+          "https://media.cooky.vn/recipe/g3/29074/s300x300/recipe29074-prepare-step2-636574006709104810.JPG"
+        ]
+      },
+      {
+        "step": 3,
+        "des": "Chuẩn bị một bếp than, đặt ốc đã sơ chế lên vỉ nướng. Chờ cho ốc bốc hơi nóng thì lần lượt chang nước sốt tiêu xanh vào miệng ốc. Cho đến khi nước sốt trong ốc sôi lên và cạn bớt nước, sốt trong ốc keo lại, có mùi thơm nồng của tiêu xanh là được.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29074/s300x300/recipe29074-prepare-step3-636574008557708057.JPG",
+          "https://media.cooky.vn/recipe/g3/29074/s300x300/recipe29074-prepare-step3-636574008558332058.JPG",
+          "https://media.cooky.vn/recipe/g3/29074/s300x300/recipe29074-prepare-step3-636574008557084056.JPG",
+          "https://media.cooky.vn/recipe/g3/29074/s300x300/recipe29074-prepare-step3-636574008559112060.jpg",
+          "https://media.cooky.vn/recipe/g3/29074/s300x300/recipe29074-prepare-step3-636574008558800059.JPG",
+          "https://media.cooky.vn/recipe/g3/29074/s300x300/recipe29074-prepare-step3-636574008557396057.JPG"
+        ]
+      },
+      {
+        "step": 4,
+        "des": "Ốc đã nướng xong, trình bày ra đĩa và ăn kèm với rau răm và muối ớt sữa hoặc muối ớt xanh rất ngon. Dùng làm món ăn nhậu cũng rất hấp dẫn.",
+        "pictures": [
+          "https://media.cooky.vn/recipe/g3/29074/s300x300/recipe29074-prepare-step4-636574009418673569.JPG",
+          "https://media.cooky.vn/recipe/g3/29074/s300x300/recipe29074-prepare-step4-636574009418985570.jpg",
+          "https://media.cooky.vn/recipe/g3/29074/s300x300/recipe29074-prepare-step4-636574226982583700.JPG",
+          "https://media.cooky.vn/recipe/g3/29074/s300x300/recipe29074-prepare-step4-636574226982271700.JPG"
+        ]
+      }
+    ]
+  }
+]
