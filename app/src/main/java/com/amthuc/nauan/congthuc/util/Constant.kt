@@ -6,5 +6,5 @@ package com.amthuc.nauan.congthuc.util
 
 object Constant {
 
-    const val CATEGORIES_PATH = "assets/data/categories.json"
+    const val CATEGORIES_PATH = "data/categories/categories.json"
 }

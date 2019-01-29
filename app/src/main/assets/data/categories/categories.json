@@ -108,7 +108,7 @@
       "android.resource://com.amthuc.nauan.congthuc/drawable/kem_2",
       "android.resource://com.amthuc.nauan.congthuc/drawable/kem_3"
     ]
-  },1
+  },
   {
     "title": "Lẩu",
     "source": "data/category/lau.json",
