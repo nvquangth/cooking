@@ -194,9 +194,9 @@
     "source": "data/category/spaghetti.json",
     "recipes": 174,
     "images": [
-      "android.resource://com.amthuc.nauan.congthuc/drawable/spaghettin_1",
-      "android.resource://com.amthuc.nauan.congthuc/drawable/spaghettin_2",
-      "android.resource://com.amthuc.nauan.congthuc/drawable/spaghettin_3"
+      "android.resource://com.amthuc.nauan.congthuc/drawable/spaghetti_1",
+      "android.resource://com.amthuc.nauan.congthuc/drawable/spaghetti_2",
+      "android.resource://com.amthuc.nauan.congthuc/drawable/spaghetti_3"
     ]
   },
   {
@@ -234,9 +234,9 @@
     "source": "data/category/soupchao.json",
     "recipes": 401,
     "images": [
-      "android.resource://com.amthuc.nauan.congthuc/drawable/soupchap_1",
-      "android.resource://com.amthuc.nauan.congthuc/drawable/soupchap_2",
-      "android.resource://com.amthuc.nauan.congthuc/drawable/soupchap_3"
+      "android.resource://com.amthuc.nauan.congthuc/drawable/soup_1",
+      "android.resource://com.amthuc.nauan.congthuc/drawable/soup_2",
+      "android.resource://com.amthuc.nauan.congthuc/drawable/soup_3"
     ]
   },
   {

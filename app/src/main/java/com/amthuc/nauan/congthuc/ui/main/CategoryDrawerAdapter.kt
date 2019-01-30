@@ -14,7 +14,7 @@ import com.amthuc.nauan.congthuc.ui.base.OnItemListener
  *   Created by quangnv on 29/01/2019
  */
 
-class CategoryAdapter(context: Context) : BaseRecyclerViewAdapter<Category, RecyclerView.ViewHolder>(context) {
+class CategoryDrawerAdapter(context: Context) : BaseRecyclerViewAdapter<Category, RecyclerView.ViewHolder>(context) {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         val binding = DataBindingUtil.inflate<ItemCategoryDrawerBinding>(
             layoutInflater, R.layout.item_category_drawer, parent, false

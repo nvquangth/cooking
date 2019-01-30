@@ -13,6 +13,9 @@ versions.binding_utils
 //glide
 versions.glide = "4.8.0"
 
+//glide transformations
+versions.glidetransformations = "4.0.1"
+
 //lifecycle
 versions.lifecycle = "2.0.0"
 
@@ -57,6 +60,7 @@ support_lib.design = "com.google.android.material:material:$versions.support"
 support_lib.card_view = "androidx.cardview:cardview:$versions.support"
 support_lib.constraint_layout = "androidx.constraintlayout:constraintlayout:$versions.constraint_layout"
 support_lib.glide = "com.github.bumptech.glide:glide:$versions.glide"
+support_lib.glidetransformations = "jp.wasabeef:glide-transformations:$versions.glidetransformations"
 support_lib.annotations = "androidx.annotation:annotation:$versions.annotations"
 support_lib.material_desgin = "com.google.android.material:material:$versions.material_desgin"
 support_lib.search_view = "com.github.arimorty:floatingsearchview:$versions.search_view"
