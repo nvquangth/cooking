@@ -2,6 +2,7 @@ package com.amthuc.nauan.congthuc.ui.main
 
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.widget.Toolbar
+import androidx.core.view.GravityCompat
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -11,13 +12,17 @@ import com.amthuc.nauan.congthuc.databinding.ActivityMainBinding
 import com.amthuc.nauan.congthuc.ui.base.BaseActivity
 import com.amthuc.nauan.congthuc.ui.base.OnItemListener
 import com.amthuc.nauan.congthuc.ui.categories.CategoriesFragment
+import com.amthuc.nauan.congthuc.ui.category.CategoryFragment
 import kotlinx.android.synthetic.main.activity_main.*
 import org.koin.android.ext.android.get
 import org.koin.androidx.viewmodel.ext.android.getViewModel
 
 class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>(), OnItemListener<Category> {
     override fun onItemClick(item: Category, position: Int) {
-
+        replaceFragment(CategoryFragment.newInstance(item), false)
+        if (drawer_layout.isDrawerOpen(GravityCompat.START)) {
+            drawer_layout.closeDrawer(GravityCompat.START)
+        }
     }
 
     override fun getLayoutResource(): Int = R.layout.activity_main
@@ -45,14 +50,14 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>(), OnItemL
         addFragment(CategoriesFragment.newInstance(), false)
     }
 
-//    override fun onBackPressed() {
-//        if (drawer_layout.isDrawerOpen(GravityCompat.START)) {
-//            drawer_layout.closeDrawer(GravityCompat.START)
-//        } else {
-//            super.onBackPressed()
-//        }
-//    }
-//
+    override fun onBackPressed() {
+        if (drawer_layout.isDrawerOpen(GravityCompat.START)) {
+            drawer_layout.closeDrawer(GravityCompat.START)
+        } else {
+            super.onBackPressed()
+        }
+    }
+
     fun setupWithToolbar(toolbar: Toolbar) {
         val toggle = ActionBarDrawerToggle(
             this, drawer_layout, toolbar,

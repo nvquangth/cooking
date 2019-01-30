@@ -6,7 +6,7 @@
 
         <variable
             name="viewModel"
-            type="com.amthuc.nauan.congthuc.ui.categories.CategoriesViewModel" />
+            type="com.amthuc.nauan.congthuc.ui.category.CategoryViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -21,14 +21,15 @@
             android:background="?attr/colorPrimary"
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme"
+            app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:title="@string/title_toolbar_categories" />
+            app:title="@{viewModel.observableField.get().title}" />
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recyclerCategory"
-            android:layout_width="match_parent"
+            android:id="@+id/recyclerRecipe"
+            android:layout_width="0dp"
             android:layout_height="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

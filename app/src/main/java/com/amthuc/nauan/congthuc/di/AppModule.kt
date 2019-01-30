@@ -8,6 +8,8 @@ import com.amthuc.nauan.congthuc.data.source.local.CategoryLocalDataSource
 import com.amthuc.nauan.congthuc.data.source.local.RecipeLocalDataSource
 import com.amthuc.nauan.congthuc.ui.categories.CategoriesViewModel
 import com.amthuc.nauan.congthuc.ui.categories.CategoryAdapter
+import com.amthuc.nauan.congthuc.ui.category.CategoryViewModel
+import com.amthuc.nauan.congthuc.ui.category.RecipeAdapter
 import com.amthuc.nauan.congthuc.ui.main.CategoryDrawerAdapter
 import com.amthuc.nauan.congthuc.ui.main.MainViewModel
 import com.amthuc.nauan.congthuc.util.rx.BaseSchedulerProvider
@@ -23,6 +25,7 @@ import org.koin.dsl.module.module
 val viewModelModule = module {
     viewModel<MainViewModel>()
     viewModel<CategoriesViewModel>()
+    viewModel<CategoryViewModel>()
 }
 
 val localDataSourceModule = module {
@@ -42,6 +45,7 @@ val rxModule = module {
 val adapterModule = module {
     single { CategoryDrawerAdapter(get()) }
     single { CategoryAdapter(get()) }
+    single { RecipeAdapter(get()) }
 }
 
 val appModule = listOf(
