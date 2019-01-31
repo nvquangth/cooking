@@ -19,7 +19,7 @@ import org.koin.androidx.viewmodel.ext.android.getViewModel
 
 class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>(), OnItemListener<Category> {
     override fun onItemClick(item: Category, position: Int) {
-        replaceFragment(CategoryFragment.newInstance(item), false)
+        replaceFragment(CategoryFragment.newInstance(item), true)
         if (drawer_layout.isDrawerOpen(GravityCompat.START)) {
             drawer_layout.closeDrawer(GravityCompat.START)
         }

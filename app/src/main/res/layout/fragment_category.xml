@@ -21,11 +21,11 @@
             android:background="?attr/colorPrimary"
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme"
-            app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+            app:navigationIcon="@drawable/ic_arrow_back_white_24dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:title="@{viewModel.observableField.get().title}" />
+            app:title='@{viewModel.observableField.get().title + " (" + String.valueOf(viewModel.observableField.get().recipes) + " món)"}' />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerRecipe"
