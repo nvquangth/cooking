@@ -17,7 +17,7 @@
             android:id="@+id/imageRecipe"
             imageUrlCrop="@{viewModel.recipe.img}"
             android:layout_width="0dp"
-            android:layout_height="@dimen/dp_256"
+            android:layout_height="@dimen/dp_200"
             android:contentDescription="@string/app_name"
             android:scaleType="centerCrop"
             app:layout_constraintEnd_toEndOf="parent"
@@ -27,7 +27,7 @@
         <View
             android:id="@+id/view"
             android:layout_width="wrap_content"
-            android:layout_height="@dimen/dp_88"
+            android:layout_height="@dimen/dp_72"
             android:background="@color/color_transparent_48"
             app:layout_constraintBottom_toBottomOf="@+id/imageRecipe"
             app:layout_constraintEnd_toEndOf="parent"

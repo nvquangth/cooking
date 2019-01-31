@@ -22,6 +22,7 @@ class RecipeAdapter(context: Context) : BaseRecyclerViewAdapter<Recipe, Recycler
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
         (holder as ItemViewHolder).bindData(listData[position])
+        setAnim(holder.itemView, position)
     }
 
     inner class ItemViewHolder(

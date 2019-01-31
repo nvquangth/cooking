@@ -8,12 +8,27 @@ import com.google.gson.annotations.SerializedName
 
 data class Recipe(
     var name: String? = null,
-    var time: Int = 0,
     var img: String? = null,
     var level: String? = null,
     var title: String? = null,
     var des: String? = null,
-    var serving: Int = 0,
     @SerializedName("components") var ingredients: List<Ingredient>? = null,
     @SerializedName("cook_steps") var cookSteps: List<CookStep>? = null
-)
+) {
+
+    var time: Int = 0
+    get() {
+        if (field == 0) {
+            field = 30
+        }
+        return field
+    }
+
+    var serving: Int = 0
+    get() {
+        if (field == 0) {
+            field = 4
+        }
+        return field
+    }
+}
