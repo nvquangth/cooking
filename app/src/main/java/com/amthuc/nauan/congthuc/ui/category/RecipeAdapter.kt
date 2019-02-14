@@ -25,7 +25,7 @@ class RecipeAdapter(context: Context) : BaseRecyclerViewAdapter<Recipe, Recycler
         setAnim(holder.itemView, position)
     }
 
-    inner class ItemViewHolder(
+    class ItemViewHolder(
         private val binding: ItemRecipeBinding,
         private val onItemListener: OnItemListener<Recipe>?,
         private val itemViewModel: ItemRecipeViewModel = ItemRecipeViewModel(onItemListener)
