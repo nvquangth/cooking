@@ -24,12 +24,17 @@ abstract class BaseRecyclerViewAdapter<T, VH : RecyclerView.ViewHolder> construc
         return listData.size
     }
 
+    override fun onViewDetachedFromWindow(holder: VH) {
+        super.onViewDetachedFromWindow(holder)
+        holder.itemView.clearAnimation()
+    }
+
     protected open fun setAnim(view: View, position: Int) {
-        if (position > lastPosition) {
-            val animation = AnimationUtils.loadAnimation(context, R.anim.item_animation_fall_bottom)
-            view.startAnimation(animation)
-            lastPosition = position
-        }
+        val animation = AnimationUtils.loadAnimation(context,
+            if (position > lastPosition) R.anim.item_animation_fall_bottom
+            else R.anim.item_animation_fall_down)
+        view.startAnimation(animation)
+        lastPosition = position
     }
 
     fun getData(): MutableList<T> {
