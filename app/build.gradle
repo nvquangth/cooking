@@ -26,7 +26,12 @@ android {
     dataBinding {
         enabled = true
     }
-    kapt { generateStubs = true }
+    kapt {
+        generateStubs = true
+    }
+    androidExtensions {
+        experimental = true
+    }
 }
 
 dependencies {

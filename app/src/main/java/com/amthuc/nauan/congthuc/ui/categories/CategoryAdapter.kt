@@ -27,7 +27,7 @@ class CategoryAdapter(context: Context) : BaseRecyclerViewAdapter<Category, Recy
         (holder as ItemViewHolder).bindData(listData[position])
     }
 
-    inner class ItemViewHolder(
+    class ItemViewHolder(
         private val binding: ItemCategoriesBinding,
         private val onItemListener: OnItemListener<Category>?,
         private val itemViewModel: ItemCategoryViewModel = ItemCategoryViewModel(onItemListener)

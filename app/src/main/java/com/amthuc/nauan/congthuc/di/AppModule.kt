@@ -12,6 +12,9 @@ import com.amthuc.nauan.congthuc.ui.category.CategoryViewModel
 import com.amthuc.nauan.congthuc.ui.category.RecipeAdapter
 import com.amthuc.nauan.congthuc.ui.main.CategoryDrawerAdapter
 import com.amthuc.nauan.congthuc.ui.main.MainViewModel
+import com.amthuc.nauan.congthuc.ui.recipedetail.CookStepAdapter
+import com.amthuc.nauan.congthuc.ui.recipedetail.IngredientAdapter
+import com.amthuc.nauan.congthuc.ui.recipedetail.RecipeDetailViewModel
 import com.amthuc.nauan.congthuc.util.rx.BaseSchedulerProvider
 import com.amthuc.nauan.congthuc.util.rx.SchedulerProvider
 import org.koin.android.ext.koin.androidContext
@@ -26,6 +29,7 @@ val viewModelModule = module {
     viewModel<MainViewModel>()
     viewModel<CategoriesViewModel>()
     viewModel<CategoryViewModel>()
+    viewModel<RecipeDetailViewModel>()
 }
 
 val localDataSourceModule = module {
@@ -46,6 +50,8 @@ val adapterModule = module {
     single { CategoryDrawerAdapter(get()) }
     single { CategoryAdapter(get()) }
     single { RecipeAdapter(get()) }
+    single { IngredientAdapter(get()) }
+    single { CookStepAdapter(get()) }
 }
 
 val appModule = listOf(

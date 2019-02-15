@@ -7,6 +7,7 @@ import com.amthuc.nauan.congthuc.data.model.Category
 import com.amthuc.nauan.congthuc.data.model.Recipe
 import com.amthuc.nauan.congthuc.data.repository.RecipeRepository
 import com.amthuc.nauan.congthuc.ui.base.BaseViewModel
+import com.amthuc.nauan.congthuc.ui.main.MainViewModel
 import com.amthuc.nauan.congthuc.util.rx.BaseSchedulerProvider
 import org.koin.android.ext.android.get
 
@@ -14,7 +15,7 @@ import org.koin.android.ext.android.get
  *   Created by quangnv on 30/01/2019
  */
 
-class CategoryViewModel(application: Application) : BaseViewModel(application) {
+class CategoryViewModel(application: Application) : MainViewModel(application) {
 
     private val recipeRepository = application.get<RecipeRepository>()
     private val scheduler = application.get<BaseSchedulerProvider>()

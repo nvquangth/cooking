@@ -11,6 +11,7 @@
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        style="@style/backgroundFragmentStyle"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -23,7 +24,8 @@
             android:theme="?attr/actionBarTheme"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:title="@{viewModel.observableField.get().name}" />
 
         <ImageButton
             android:id="@+id/buttonClock"
@@ -46,7 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/dp_16"
-            android:text="10 phut"
+            android:text='@{String.valueOf(viewModel.observableField.get().time) + " phút"}'
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toStartOf="@+id/buttonService"
             app:layout_constraintHorizontal_bias="0.5"
@@ -74,7 +76,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/dp_16"
-            android:text="3 nguoi"
+            android:text='@{String.valueOf(viewModel.observableField.get().serving) + " người"}'
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toStartOf="@+id/buttonIngredient"
             app:layout_constraintHorizontal_bias="0.5"
@@ -102,7 +104,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/dp_16"
-            android:text="6 nguyen lieu"
+            android:text='@{String.valueOf(viewModel.observableField.get().ingredients.size()) + " nguyên liệu"}'
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
@@ -111,11 +113,11 @@
 
         <ImageView
             android:id="@+id/iamgeRecipe"
+            imageUrl="@{viewModel.observableField.get().img}"
             android:layout_width="0dp"
             android:layout_height="@dimen/dp_256"
             android:contentDescription="@string/app_name"
             android:scaleType="centerCrop"
-            android:src="@drawable/bunmipho_1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/buttonService" />
@@ -126,7 +128,7 @@
             android:layout_height="wrap_content"
             android:background="@color/color_gray_50_300"
             android:padding="@dimen/dp_8"
-            android:text="Thanh phan (4)"
+            android:text='@{"Thành phần (" + String.valueOf(viewModel.observableField.get().ingredients.size()) + ")"}'
             android:textAllCaps="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -147,7 +149,7 @@
             android:layout_height="wrap_content"
             android:background="@color/color_gray_50_300"
             android:padding="@dimen/dp_8"
-            android:text="Cach lam (4)"
+            android:text='@{"Nguyên liệu (" + String.valueOf(viewModel.observableField.get().cookSteps.size()) + ")"}'
             android:textAllCaps="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
