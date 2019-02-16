@@ -1,6 +1,5 @@
 package com.amthuc.nauan.congthuc.ui.categories
 
-import android.content.Context
 import android.os.Bundle
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.GridLayoutManager
@@ -10,8 +9,8 @@ import com.amthuc.nauan.congthuc.databinding.FragmentCategoriesBinding
 import com.amthuc.nauan.congthuc.ui.base.BaseFragment
 import com.amthuc.nauan.congthuc.ui.base.OnItemListener
 import com.amthuc.nauan.congthuc.ui.main.MainActivity
+import com.amthuc.nauan.congthuc.ui.main.NavigatorViewModel
 import com.amthuc.nauan.congthuc.util.Constant
-import com.amthuc.nauan.congthuc.util.notNull
 import com.amthuc.nauan.congthuc.util.recyclerview.SpacesItemDecoration
 import kotlinx.android.synthetic.main.fragment_categories.*
 import org.koin.android.ext.android.get
@@ -24,25 +23,7 @@ import org.koin.androidx.viewmodel.ext.android.getViewModel
 class CategoriesFragment : BaseFragment<FragmentCategoriesBinding, CategoriesViewModel>(),
     OnItemListener<Category> {
 
-    private var onItemListener: OnItemListener<Category>? = null
-
-    override fun onAttach(context: Context?) {
-        super.onAttach(context)
-        if (activity is MainActivity) {
-            onItemListener = activity as MainActivity
-        }
-    }
-
-    override fun onDestroy() {
-        onItemListener.notNull {
-            onItemListener = null
-        }
-        super.onDestroy()
-    }
-
-    override fun onItemClick(item: Category, position: Int) {
-        onItemListener?.onItemClick(item, position)
-    }
+    private lateinit var navigatorViewModel: NavigatorViewModel
 
     companion object {
         fun newInstance(): CategoriesFragment {
@@ -61,7 +42,8 @@ class CategoriesFragment : BaseFragment<FragmentCategoriesBinding, CategoriesVie
 
     override fun retrieveViewOrRestoreState() {
         val categoryAdapter = get<CategoryAdapter>()
-        val viewModel = getViewModel<CategoriesViewModel>()
+        navigatorViewModel = activity!!.getViewModel()
+        viewModel = getViewModel()
 
         viewModel.getDataCategories().observe(this, Observer { categories ->
             categoryAdapter.addData(categories)
@@ -82,4 +64,7 @@ class CategoriesFragment : BaseFragment<FragmentCategoriesBinding, CategoriesVie
         }
     }
 
+    override fun onItemClick(item: Category, position: Int) {
+        navigatorViewModel.openCategoryEvent.value = item
+    }
 }

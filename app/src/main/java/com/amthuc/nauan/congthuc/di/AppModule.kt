@@ -12,6 +12,7 @@ import com.amthuc.nauan.congthuc.ui.category.CategoryViewModel
 import com.amthuc.nauan.congthuc.ui.category.RecipeAdapter
 import com.amthuc.nauan.congthuc.ui.main.CategoryDrawerAdapter
 import com.amthuc.nauan.congthuc.ui.main.MainViewModel
+import com.amthuc.nauan.congthuc.ui.main.NavigatorViewModel
 import com.amthuc.nauan.congthuc.ui.recipedetail.CookStepAdapter
 import com.amthuc.nauan.congthuc.ui.recipedetail.IngredientAdapter
 import com.amthuc.nauan.congthuc.ui.recipedetail.RecipeDetailViewModel
@@ -26,6 +27,7 @@ import org.koin.dsl.module.module
  */
 
 val viewModelModule = module {
+    viewModel<NavigatorViewModel>()
     viewModel<MainViewModel>()
     viewModel<CategoriesViewModel>()
     viewModel<CategoryViewModel>()

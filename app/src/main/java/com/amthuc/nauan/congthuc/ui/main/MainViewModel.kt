@@ -3,11 +3,9 @@ package com.amthuc.nauan.congthuc.ui.main
 import android.app.Application
 import androidx.lifecycle.MutableLiveData
 import com.amthuc.nauan.congthuc.data.model.Category
-import com.amthuc.nauan.congthuc.data.model.Recipe
 import com.amthuc.nauan.congthuc.data.repository.CategoryRepository
 import com.amthuc.nauan.congthuc.ui.base.BaseViewModel
 import com.amthuc.nauan.congthuc.util.Constant
-import com.amthuc.nauan.congthuc.util.SingleLiveEvent
 import com.amthuc.nauan.congthuc.util.rx.BaseSchedulerProvider
 import org.koin.android.ext.android.get
 
@@ -21,8 +19,6 @@ open class MainViewModel(application: Application) : BaseViewModel(application) 
     private val scheduler = application.get<BaseSchedulerProvider>()
     private val categories: MutableLiveData<MutableList<Category>> = MutableLiveData()
 
-    private val openRecipeEvent: SingleLiveEvent<Recipe> = SingleLiveEvent()
-
     fun getCategories() {
         val disposable = categoryRepository.getCategories(Constant.CATEGORIES_PATH)
             .subscribeOn(scheduler.io())
@@ -32,8 +28,4 @@ open class MainViewModel(application: Application) : BaseViewModel(application) 
     }
 
     fun getDataCategories(): MutableLiveData<MutableList<Category>> = categories
-
-    fun getOpenRecipeEvent(): SingleLiveEvent<Recipe> {
-        return openRecipeEvent
-    }
 }

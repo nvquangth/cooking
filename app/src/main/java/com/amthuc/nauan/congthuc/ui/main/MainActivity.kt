@@ -8,7 +8,6 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.amthuc.nauan.congthuc.R
 import com.amthuc.nauan.congthuc.data.model.Category
-import com.amthuc.nauan.congthuc.data.model.Recipe
 import com.amthuc.nauan.congthuc.databinding.ActivityMainBinding
 import com.amthuc.nauan.congthuc.ui.base.BaseActivity
 import com.amthuc.nauan.congthuc.ui.base.OnItemListener
@@ -20,10 +19,7 @@ import org.koin.android.ext.android.get
 import org.koin.androidx.viewmodel.ext.android.getViewModel
 
 class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>(),
-    OnItemListener<Category>, CategoryFragment.OnItemRecipeListener {
-    override fun onItemRecipeClick(recipe: Recipe) {
-        replaceFragment(RecipeDetailFragment.newInstance(recipe), true)
-    }
+    OnItemListener<Category> {
 
     override fun onItemClick(item: Category, position: Int) {
         replaceFragment(CategoryFragment.newInstance(item), true)
@@ -36,18 +32,24 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>(),
 
     override fun retrieveViewOrRestoreState() {
         val categoryAdapter = get<CategoryDrawerAdapter>()
+        val navigatorViewModel = getViewModel<NavigatorViewModel>()
         viewModel = getViewModel()
 
         viewBinding.viewModel = viewModel
+
+        navigatorViewModel.openCategoryEvent.observe(this, Observer { category ->
+            replaceFragment(CategoryFragment.newInstance(category), true)
+        })
+
+        navigatorViewModel.openRecipeEvent.observe(this, Observer { recipe ->
+            replaceFragment(RecipeDetailFragment.newInstance(recipe), true)
+        })
 
         viewModel.getDataCategories().observe(this, Observer { categories ->
             categoryAdapter.addData(categories)
         })
 
-//        viewModel.getOpenRecipeEvent().observe(this, Observer { recipe ->
-//            Log.d("fff", "yyyyy")
-//        })
-//        lifecycle.addObserver(viewModel)
+        lifecycle.addObserver(viewModel)
 
         categoryAdapter.registerListener(this)
         recyclerCategoryDrawer.adapter = categoryAdapter
