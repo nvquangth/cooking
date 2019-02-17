@@ -39,6 +39,10 @@ class CategoryFragment : BaseFragment<FragmentCategoryBinding, CategoryViewModel
     override fun getLayoutResource(): Int = R.layout.fragment_category
 
     override fun initComponentOnCreateView() {
+        viewBinding.toolbar.setNavigationOnClickListener {
+            navigatorViewModel.backpressEvent.call()
+        }
+
         arguments.notNull {
             category = it.getParcelable(ARGUMENT_CATEGORY)
         }

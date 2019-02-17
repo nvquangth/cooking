@@ -7,6 +7,7 @@ import com.amthuc.nauan.congthuc.R
 import com.amthuc.nauan.congthuc.data.model.Recipe
 import com.amthuc.nauan.congthuc.databinding.FragmentRecipeDetailBinding
 import com.amthuc.nauan.congthuc.ui.base.BaseFragment
+import com.amthuc.nauan.congthuc.ui.main.NavigatorViewModel
 import kotlinx.android.synthetic.main.fragment_recipe_detail.*
 import org.koin.android.ext.android.get
 import org.koin.androidx.viewmodel.ext.android.getViewModel
@@ -17,6 +18,7 @@ import org.koin.androidx.viewmodel.ext.android.getViewModel
 
 class RecipeDetailFragment : BaseFragment<FragmentRecipeDetailBinding, RecipeDetailViewModel>() {
 
+    private lateinit var navigatorViewModel: NavigatorViewModel
     private var recipe: Recipe? = null
 
     companion object {
@@ -35,12 +37,16 @@ class RecipeDetailFragment : BaseFragment<FragmentRecipeDetailBinding, RecipeDet
     override fun getLayoutResource(): Int = R.layout.fragment_recipe_detail
 
     override fun initComponentOnCreateView() {
+        viewBinding.toolbar.setNavigationOnClickListener {
+            navigatorViewModel.backpressEvent.call()
+        }
         recipe = arguments?.getParcelable(ARGUMENT_RECIPE)
     }
 
     override fun retrieveViewOrRestoreState() {
         val ingredientAdapter = get<IngredientAdapter>()
         val cookStepAdapter = get<CookStepAdapter>()
+        navigatorViewModel = activity!!.getViewModel()
         val viewModel = getViewModel<RecipeDetailViewModel>()
 
         viewModel.setDataRecipe(recipe!!)

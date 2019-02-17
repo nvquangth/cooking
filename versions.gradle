@@ -39,6 +39,8 @@ versions.test_runner = "1.1.0"
 //koin
 versions.koin = "1.0.2"
 
+//PhotoView
+versions.photoview = "2.3.0"
 
 ext.versions = versions
 
@@ -98,6 +100,9 @@ def koin = [:]
 koin.koin_androidx_scope = "org.koin:koin-androidx-scope:$versions.koin"
 koin.koin_androidx_viewmodel = "org.koin:koin-androidx-viewmodel:$versions.koin"
 
+def photoview = [:]
+photoview.photoview = "com.github.chrisbanes:PhotoView:$versions.photoview"
+
 def dep = [:]
 dep.gradle = "com.android.tools.build:gradle:$build_versions.gradle_version"
 dep.junit = "junit:junit:$versions.junit"
@@ -109,6 +114,7 @@ dep.lifecycle = lifecycle
 dep.room = room
 dep.test = test
 dep.koin = koin
+dep.photoview = photoview
 
 static def addRepos(RepositoryHandler handler) {
     handler.jcenter()

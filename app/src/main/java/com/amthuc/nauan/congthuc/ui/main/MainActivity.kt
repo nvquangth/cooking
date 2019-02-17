@@ -37,6 +37,10 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>(),
 
         viewBinding.viewModel = viewModel
 
+        navigatorViewModel.backpressEvent.observe(this, Observer {
+            onBackPressed()
+        })
+
         navigatorViewModel.openCategoryEvent.observe(this, Observer { category ->
             replaceFragment(CategoryFragment.newInstance(category), true)
         })

@@ -10,6 +10,7 @@ import com.amthuc.nauan.congthuc.util.SingleLiveEvent
  */
 
 class NavigatorViewModel(
+    val backpressEvent: SingleLiveEvent<Void> = SingleLiveEvent(),
     val openCategoryEvent: SingleLiveEvent<Category> = SingleLiveEvent(),
     val openRecipeEvent: SingleLiveEvent<Recipe> = SingleLiveEvent()
 ) : ViewModel()

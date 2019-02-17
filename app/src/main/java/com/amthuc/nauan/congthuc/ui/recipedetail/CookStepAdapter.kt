@@ -28,6 +28,10 @@ class CookStepAdapter(context: Context) : BaseRecyclerViewAdapter<CookStep, Recy
         private val binding: ItemCookStepBinding,
         private val itemViewModel: ItemCookStepViewModel = ItemCookStepViewModel()
     ) : RecyclerView.ViewHolder(binding.root) {
+        init {
+            binding.viewModel = itemViewModel
+        }
+
         fun bindData(cookStep: CookStep) {
             itemViewModel.setData(cookStep)
             binding.executePendingBindings()

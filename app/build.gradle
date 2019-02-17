@@ -79,4 +79,7 @@ dependencies {
     // Koin
     implementation dep.koin.koin_androidx_scope
     implementation dep.koin.koin_androidx_viewmodel
+
+    // PhotoView
+    implementation dep.photoview.photoview
 }
